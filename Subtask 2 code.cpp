@@ -12,7 +12,7 @@ int main(){
     cin>>temp_2;
     //If statements to guide the user on the correct frying temperatures
     
-    if(temp_2-temp_1>50){
+    if(temp_2-temp_1>50)// If condition to measure the suitability of the oil after the second reading{
         cout<<"reduce fryer heat before taking third reading\n";
     }
     else if(temp_2-temp_1<10){
@@ -20,12 +20,14 @@ int main(){
     }
     //Temperature 3 frying guidelines via appropriate if statements
     cout<<"enter temp_3\n";
+    
     cin>>temp_3;
+    
     if(temp_3<190 && temp_3>150){
-        cout<<"you may start frying the magwinyas\n";
+        cout<<"you may start frying the magwinyas\n";//Message to indicate that the user can start frying
     }
     else{
-        cout<<"oil is not ready for frying\n";
+        cout<<"oil is not ready for frying\n";//Message to indicate unreadiness
     }
     return 0;
 }
