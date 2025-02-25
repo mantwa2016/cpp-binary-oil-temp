@@ -21,7 +21,7 @@ int main(){
     //Temperature 3 frying guidelines via appropriate if statements
     cout<<"enter temp_3\n";
     
-    cin>>temp_3;
+    cin>>temp_3;//Temperature 3 input line
     
     if(temp_3<190 && temp_3>150){
         cout<<"you may start frying the magwinyas\n";//Message to indicate that the user can start frying
