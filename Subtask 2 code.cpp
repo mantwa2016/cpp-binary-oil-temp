@@ -4,17 +4,21 @@ using namespace std;
 
 int main(){
     int temp_1,temp_2,temp_3;
-
+    //Below the user is requested to input temperature
+    
     cout<<"enter temp_1\n";
     cin>>temp_1;
     cout<<"enter temp_2\n";
     cin>>temp_2;
+    //If statements to guide the user on the correct frying temperatures
+    
     if(temp_2-temp_1>50){
         cout<<"reduce fryer heat before taking third reading\n";
     }
     else if(temp_2-temp_1<10){
         cout<<"increase the fryer heat before taking the third reading\n";
     }
+    //Temperature 3 frying guidelines via appropriate if statements
     cout<<"enter temp_3\n";
     cin>>temp_3;
     if(temp_3<190 && temp_3>150){
